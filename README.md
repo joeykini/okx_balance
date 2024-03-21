@@ -15,4 +15,5 @@ TELEGRAM_CHAT_ID=tg id
 运行 python3 ok.py
 
 后台运行
-nohup python3 ok.py &
+ nohup /usr/bin/python3 /root/ok.py > /root/ok.log 2>&1 &
+   我放在root下运行，放在其他文件下自行修改，设置了log分区、满了后自动覆盖
